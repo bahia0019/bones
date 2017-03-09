@@ -216,9 +216,11 @@ function bones_theme_support() {
 
 	// Enable support for HTML5 markup.
 	add_theme_support( 'html5', array(
-		'comment-list',
 		'search-form',
-		'comment-form'
+		'comment-form',
+		'comment-list',
+		'gallery',
+		'caption'
 	) );
 
 } /* end bones theme support */
